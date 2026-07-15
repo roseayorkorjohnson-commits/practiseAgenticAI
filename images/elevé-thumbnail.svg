@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="36" fill="#FFF9FB"/>
+  <rect x="44" y="44" width="1112" height="542" rx="30" fill="url(#bg)"/>
+  <circle cx="900" cy="188" r="120" fill="#F4C2D7" fill-opacity="0.45"/>
+  <circle cx="320" cy="470" r="140" fill="#E75480" fill-opacity="0.16"/>
+  <g transform="translate(275 150)">
+    <rect x="0" y="0" width="650" height="330" rx="24" fill="#FFFFFF" fill-opacity="0.95"/>
+    <rect x="120" y="95" width="410" height="140" rx="70" fill="none" stroke="#C96A8B" stroke-width="6"/>
+    <path d="M315 65 C275 95, 275 155, 315 185 C355 155, 355 95, 315 65 Z" fill="#D4AF37"/>
+    <path d="M315 165 C290 185, 290 240, 315 260 C340 240, 340 185, 315 165 Z" fill="#E75480"/>
+    <circle cx="315" cy="160" r="54" fill="#FFF9FB" stroke="#D4AF37" stroke-width="4"/>
+    <path d="M255 242 H375" stroke="#C96A8B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M242 268 H388" stroke="#D4AF37" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="600" y="530" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="54" font-weight="700" fill="#1F1F1F">ELEVÉ</text>
+  <text x="600" y="570" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="24" font-weight="500" fill="#6f6170">Timeless elegance. Crafted for you.</text>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9FB"/>
+      <stop offset="100%" stop-color="#F8EEE8"/>
+    </linearGradient>
+  </defs>
+</svg>
