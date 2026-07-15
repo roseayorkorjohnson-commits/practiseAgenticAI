@@ -21,12 +21,7 @@
 
     <header class="navbar">
       <a href="#home" class="brand">ELEVÉ</a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav id="nav-links" aria-label="Primary navigation">
+      <nav aria-label="Primary navigation">
         <a href="#home">Home</a>
         <a href="#shop">Shop</a>
         <a href="#collections">Collections</a>
@@ -90,7 +85,7 @@
             <a href="#contact" class="btn secondary">Buy Now</a>
           </article>
           <article class="card">
-            <img src="images/wat.jpeg" alt="Luxury watch on a display" />
+            <img src="images/watch.jpeg" alt="Luxury watch on a display" />
             <h3>Éclair Watch</h3>
             <p>Sophisticated timepiece with a polished face and premium finish.</p>
             <p class="price">$4,900</p>
@@ -139,24 +134,5 @@
       </div>
       <p>© 2026 ELEVÉ. All rights reserved.</p>
     </footer>
-
-    <script>
-      const menuToggle = document.querySelector('.menu-toggle');
-      const navLinks = document.querySelector('.navbar nav');
-
-      if (menuToggle && navLinks) {
-        menuToggle.addEventListener('click', () => {
-          const isOpen = navLinks.classList.toggle('is-open');
-          menuToggle.setAttribute('aria-expanded', String(isOpen));
-        });
-
-        navLinks.querySelectorAll('a').forEach((link) => {
-          link.addEventListener('click', () => {
-            navLinks.classList.remove('is-open');
-            menuToggle.setAttribute('aria-expanded', 'false');
-          });
-        });
-      }
-    </script>
   </body>
 </html>
